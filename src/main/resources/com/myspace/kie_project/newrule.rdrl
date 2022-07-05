@@ -1,0 +1,9 @@
+package com.myspace.kie_project;
+
+import java.lang.Number;
+
+rule "newrule"
+	dialect "mvel"
+	when
+	then
+end
