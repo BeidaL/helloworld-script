@@ -6,12 +6,23 @@ package com.myspace.kie_project;
 
 public class testbranch implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public testbranch() {
-    }
+	private java.lang.Boolean branch;
 
+	public testbranch() {
+	}
 
+	public java.lang.Boolean getBranch() {
+		return this.branch;
+	}
 
+	public void setBranch(java.lang.Boolean branch) {
+		this.branch = branch;
+	}
+
+	public testbranch(java.lang.Boolean branch) {
+		this.branch = branch;
+	}
 
 }
