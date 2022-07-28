@@ -6,12 +6,23 @@ package com.myspace.kie_project;
 
 public class testhook1 implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public testhook1() {
-    }
+	private java.lang.Integer carforhook;
 
+	public testhook1() {
+	}
 
+	public java.lang.Integer getCarforhook() {
+		return this.carforhook;
+	}
 
+	public void setCarforhook(java.lang.Integer carforhook) {
+		this.carforhook = carforhook;
+	}
+
+	public testhook1(java.lang.Integer carforhook) {
+		this.carforhook = carforhook;
+	}
 
 }
