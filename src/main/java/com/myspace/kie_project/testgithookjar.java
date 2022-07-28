@@ -6,12 +6,23 @@ package com.myspace.kie_project;
 
 public class testgithookjar implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public testgithookjar() {
-    }
+	private java.lang.String car;
 
+	public testgithookjar() {
+	}
 
+	public java.lang.String getCar() {
+		return this.car;
+	}
 
+	public void setCar(java.lang.String car) {
+		this.car = car;
+	}
+
+	public testgithookjar(java.lang.String car) {
+		this.car = car;
+	}
 
 }
